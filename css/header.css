@@ -1,0 +1,79 @@
+.wrapper {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 10px;
+}
+header {
+  position: relative;
+  height: 100vh;
+  z-index: -1;
+  transform-style: preserve-3d;
+  transform: translateX(-50px) scaleX(1.12);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header h1 {
+  color: #ffffffff;
+  font-size: 5rem;
+  text-shadow: 0px 0px 5px #000;
+}
+.ig {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.nine {
+  transform: translateZ(-30px) scale(4);
+}
+.eight {
+  transform: translateZ(-30px) scale(4);
+}
+.seven {
+  transform: translateZ(-20px) scale(3);
+}
+.six {
+  transform: translateZ(-20px) scale(3);
+}
+.five {
+  transform: translateZ(-15px) scale(2.5);
+}
+.four {
+  transform: translateZ(-10px) scale(2);
+}
+.three {
+  transform: translateZ(-2px) scale(1.2);
+}
+.two {
+  transform: translateZ(-1px) scale(1.1);
+}
+.one {
+  transform: translateZ(0px) scale(1);
+}
+
+section {
+  width: 100%;
+  height: 1000px;
+  font-size: 5rem;
+  background-color: #0b1c5a;
+  color: #fff;
+  transform: translateY(-10px);
+  padding-top: 100px;
+}
+.cnt {
+  text-align: center;
+  margin: auto;
+  width: 70%;
+  height: 200px;
+  background-color: #000;
+  border-radius: 20px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

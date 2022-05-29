@@ -1,0 +1,60 @@
+#logo {
+  animation: lgo-fill 2s ease-in forwards 3.5s;
+  width: 20rem;
+}
+#logo path {
+  stroke: #fff;
+}
+#logo path:nth-child(1) {
+  stroke-dasharray: 801px;
+  stroke-dashoffset: 801px;
+  animation-name: lgo;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in;
+}
+#logo path:nth-child(2) {
+  stroke-dasharray: 515px;
+  stroke-dashoffset: 515px;
+  animation: lgo 2s ease-in forwards;
+  animation-delay: 0.3s;
+}
+#logo path:nth-child(3) {
+  stroke-dasharray: 239px;
+  stroke-dashoffset: 239px;
+  animation: lgo 2.4s ease-in forwards 0.4s;
+}
+#logo path:nth-child(4) {
+  stroke-dasharray: 398px;
+  stroke-dashoffset: 398px;
+  animation: lgo 2.4s ease-in forwards 0.7s;
+}
+#logo path:nth-child(5) {
+  stroke-dasharray: 433px;
+  stroke-dashoffset: 433px;
+  animation: lgo 2.4s ease-in forwards 1s;
+}
+#logo path:nth-child(6) {
+  stroke-dasharray: 668px;
+  stroke-dashoffset: 668px;
+  animation: lgo 2.4s ease-in forwards 1.2s;
+}
+#logo path:nth-child(7) {
+  stroke-dasharray: 515px;
+  stroke-dashoffset: 515px;
+  animation: lgo 2.4s ease-in forwards 1.5s;
+}
+@keyframes lgo {
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+@keyframes lgo-fill {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: #fff;
+    filter: drop-shadow(0px 0px 5px #000);
+  }
+}
