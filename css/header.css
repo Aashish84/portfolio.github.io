@@ -26,6 +26,7 @@ header h1 {
   object-fit: cover;
   z-index: -1;
   overflow: hidden;
+  transform: scaleX(4);
 }
 
 .nine {
@@ -47,13 +48,13 @@ header h1 {
   transform: translateZ(-10px) scale(2);
 }
 .three {
-  transform: translateZ(-2px) scale(1.2);
+  transform: translateZ(-2px) scale(1.2) scaleX(1.1);
 }
 .two {
-  transform: translateZ(-1px) scale(1.1);
+  transform: translateZ(-1px) scale(1.1) scaleX(1.1);
 }
 .one {
-  transform: translateZ(0px) scale(1);
+  transform: translateZ(0px) scale(1) scaleX(1.1);
 }
 
 section {
